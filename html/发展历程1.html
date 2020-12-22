@@ -1,0 +1,451 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>发展历程 &#8212; Data Model Book</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/myfile.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://assets.pyecharts.org/assets/echarts.min.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script type="text/x-mathjax-config">MathJax.Hub.Config({"tex2jax": {"inlineMath": [["\\(", "\\)"]], "displayMath": [["\\[", "\\]"]], "processRefs": false, "processEnvironments": false}})</script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.18.0/dist/embed-amd.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  <img src="_static/数模logo.png" class="logo" alt="logo">
+  
+  
+  <h1 class="site-logo" id="site-title">Data Model Book</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="%E8%BD%A8%E9%81%93%E5%AE%A2%E6%B5%81%E5%9F%BA%E7%A1%80%E5%88%86%E6%9E%90%E6%8A%A5%E5%91%8A.html">
+   轨道客流基础分析报告
+  </a>
+ </li>
+</ul>
+<ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B.html">
+   1.1    线网里程
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B.html#id2">
+   1.2    线网密度
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="%E5%8F%91%E5%B1%95%E5%8E%86%E7%A8%8B.html#id3">
+   1.3    站点覆盖率
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/发展历程1.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/executablebooks/jupyter-book"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        <a class="issues-button"
+            href="https://github.com/executablebooks/jupyter-book/issues/new?title=Issue%20on%20page%20%2F发展历程1.html&body=Your%20issue%20content%20here."><button
+                type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip" data-placement="left"
+                title="Open an issue"><i class="fas fa-lightbulb"></i>open issue</button></a>
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id2">
+   1.1    线网里程
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id3">
+   1.2    线网密度
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#id4">
+   1.3    站点覆盖率
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="id1">
+<h1>发展历程<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>  至2020年底，深圳市轨道线路已开通1号线、2号线、3号线、4号线、5号线、6号线、7号线、8号线、9号线、10号线和11号线共11条，站点237座（不含换乘）、283座（含换乘），换乘站点40座，通车线网里程增长至411.0千米，线网密度从2020年初的0.32km/km²上升到0.42km/km²，站点800米覆盖率达28%，覆盖区域包括南山、福田、罗湖、宝安、龙岗、龙华、光明、盐田共8个行政区，坪山、大鹏无轨道线路覆盖。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/20201202165548.png"   />
+</div>
+<center style='color:red;'> 图1 深圳市轨道线路及站点分布 </center>
+<br/>
+<center style='color:red;'> 表1 深圳市轨道线路详情 </center>
+<table class="colwidths-auto table">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>线路名称</strong></p></th>
+<th class="head"><p><strong>起终点</strong></p></th>
+<th class="head"><p><strong>线路里程（km）</strong></p></th>
+<th class="head"><p><strong>站点（座）</strong></p></th>
+<th class="head"><p><strong>换乘站点（座）</strong></p></th>
+<th class="head"><p><strong>平均站距（km）</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1号线</p></td>
+<td><p>机场东-罗湖</p></td>
+<td><p>40.5</p></td>
+<td><p>30</p></td>
+<td><p>10</p></td>
+<td><p>1.40</p></td>
+</tr>
+<tr class="row-odd"><td><p>2号线</p></td>
+<td><p>赤湾-莲塘</p></td>
+<td><p>39.6</p></td>
+<td><p>32</p></td>
+<td><p>10</p></td>
+<td><p>1.28</p></td>
+</tr>
+<tr class="row-even"><td><p>3号线</p></td>
+<td><p>双龙-福保</p></td>
+<td><p>43.1</p></td>
+<td><p>31</p></td>
+<td><p>11</p></td>
+<td><p>1.44</p></td>
+</tr>
+<tr class="row-odd"><td><p>4号线</p></td>
+<td><p>牛湖-福田口岸</p></td>
+<td><p>31.3</p></td>
+<td><p>23</p></td>
+<td><p>7</p></td>
+<td><p>1.42</p></td>
+</tr>
+<tr class="row-even"><td><p>5号线</p></td>
+<td><p>前湾-黄贝岭</p></td>
+<td><p>47.7</p></td>
+<td><p>27</p></td>
+<td><p>10</p></td>
+<td><p>1.83</p></td>
+</tr>
+<tr class="row-odd"><td><p>6号线</p></td>
+<td><p>松岗-科学馆</p></td>
+<td><p>49.4</p></td>
+<td><p>27</p></td>
+<td><p>7</p></td>
+<td><p>1.90</p></td>
+</tr>
+<tr class="row-even"><td><p>7号线</p></td>
+<td><p>西丽湖-太安</p></td>
+<td><p>30.1</p></td>
+<td><p>27</p></td>
+<td><p>11</p></td>
+<td><p>1.16</p></td>
+</tr>
+<tr class="row-odd"><td><p>8号线</p></td>
+<td><p>莲塘-盐田路</p></td>
+<td><p>12.4</p></td>
+<td><p>6</p></td>
+<td><p>0</p></td>
+<td><p>2.06</p></td>
+</tr>
+<tr class="row-even"><td><p>9号线</p></td>
+<td><p>前湾-文锦</p></td>
+<td><p>36.2</p></td>
+<td><p>32</p></td>
+<td><p>9</p></td>
+<td><p>1.17</p></td>
+</tr>
+<tr class="row-odd"><td><p>10号线</p></td>
+<td><p>双拥街-福田口岸</p></td>
+<td><p>29.3</p></td>
+<td><p>24</p></td>
+<td><p>5</p></td>
+<td><p>1.27</p></td>
+</tr>
+<tr class="row-even"><td><p>11号线</p></td>
+<td><p>碧头-福田</p></td>
+<td><p>51.9</p></td>
+<td><p>18</p></td>
+<td><p>6</p></td>
+<td><p>3.05</p></td>
+</tr>
+<tr class="row-odd"><td><p>线网合计（不重复计算）</p></td>
+<td><p>-</p></td>
+<td><p>411.5</p></td>
+<td><p>237</p></td>
+<td><p>40</p></td>
+<td><p>1.54</p></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition- admonition">
+<p class="admonition-title">注意</p>
+<ol class="simple">
+<li><p>统计口径为2020年11月</p></li>
+<li><p>7号线不包含福邻地铁站</p></li>
+<li><p>换乘站点不包含莲塘（车内换乘）和福田口岸（出站换乘）</p></li>
+</ol>
+</div>
+<div class="section" id="id2">
+<h2>1.1    线网里程<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+<p>  深圳从1988年开始轨道交通研究工作，深圳市轨道一期工程于1998年开工、2004年建成通车，开通1号线（罗湖-世界之窗）、4号线（福田口岸-少年宫）两条线路，总运营里程22公里，车站19座（含换乘站1座）。</p>
+<p>  深圳市轨道二期工程于2006年开工、2011年建成通车，开通1号线（世界之窗-机场东）、2号线、3号线、4号线（少年宫-清湖）、5号线五条线路，总运营里程178公里，车站118座（含换乘站9座）。</p>
+<p>  深圳市轨道三期工程于2012年开工，至2020年底三期工程中的轨道11号线、7号线、9号线、5号线西延段、9号线西延段、6号线、10号线和8号线相继通车投入运营，深圳市目前已形成11条线路的城市轨道交通网络，城市轨道交通网路化运营迈入了新时代。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202173251442.png"  div class="demo" align=center />
+</div>
+<center style='color:red;'> 图2 深圳历年轨道线网里程 </center>
+<p>  对比2019年，深圳的排名超过南京、武汉，至2020年底，深圳线网里程位居全国第4。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202173324144.png"  div align=center />
+</div>
+<center style='color:red;'> 图3 城市轨道线网里程排名 </center>
+</div>
+<div class="section" id="id3">
+<h2>1.2    线网密度<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h2>
+<p>  至2020底，深圳交通小区轨道线网密度分布如下图所示。交通小区的面积包括总用地面积和建设用地面积两个统计口径，此处在计算服务面积覆盖率时使用的是交通小区的建设用地面积（扣除绿地、山地、湖泊等）。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202173339627.png"  div align=center />
+</div>
+<center style='color:red;'> 图 4 深圳市轨道线网密度指标 </center>
+<p>  按全市计算，深圳轨道线网密度从2020年初的0.32km/km²上升到0.42km/km²。其中，轨道线网密度最高的行政区为福田，指标达1.98km/km2，其次为罗湖和南山，如下图所示。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202170743259.png"  div align=center />
+</div>
+<center style='color:red;'> 图 5 行政区轨道线网密度指标 </center>
+<p>  各街道的轨道线网密度分布如下图所示，主要集中在华强北、东门，其次为桂园、莲花、福田、梅林等市区街道。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/20201202171512.png"  div align=center />
+</div>
+<center style='color:red;'> 图 6 街道轨道线网密度指标 </center>
+</div>
+<div class="section" id="id4">
+<h2>1.3    站点覆盖率<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h2>
+<p>  至2020底，按轨道站点按800米服务半径进行计算的交通小区轨道站点服务面积覆盖率指标如下图所示。交通小区的面积包括总用地面积和建设用地面积两个统计口径，此处在计算服务面积覆盖率时使用的是交通小区的建设用地面积（扣除绿地、山地、湖泊等）。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202171841726.png"  div align=center />
+</div>
+<center style='color:red;'> 图 7 深圳市轨道站点覆盖率指标 </center>
+<p>  按全市计算，深圳轨道站点800米的面积覆盖率从2020年初的21.6%增长为28.3%，人口与岗位覆盖率分别从37.1%、37.2%增长至45.0%、44.4%。其中，福田的轨道站点覆盖率最高，面积覆盖率为89.8%，人口与岗位覆盖率达96.3%和95.3%。</p>
+<div class="demo">
+<img src="https://raw.githubusercontent.com/741311791/Study_notes/main/img/image-20201202172743788.png"  div align=center />
+</div>
+<center style='color:red;'> 图 8 行政区轨道站点覆盖率指标 </center>
+<p>  各街道的轨道人口与岗位覆盖率分布如下图所示，主要集中在南湖、华强北、园岭、东门、福田一带街道。</p>
+<div class="admonition-important admonition">
+<p class="admonition-title">important!</p>
+<ol class="simple">
+<li><p>深圳市轨道站点主要分布在中心城区的福田、罗湖以及南山，中心城区的人口与岗位覆盖率达84.7%，高于规划目标50%（参考《GBT 51328-2018城市综合交通体系规划标准》，中心城区人口规模在500至1000万人之间，轨道站点800米服务范围的人口与岗位覆盖目标不低于50%）。</p></li>
+<li><p>关外地区宝安区、龙岗区和龙华区仅有部分地区有轨道线路覆盖，人口与岗位覆盖率不足20%，轨道交通发展相对滞后。</p></li>
+</ol>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By Louie<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
